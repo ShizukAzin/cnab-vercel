@@ -1,0 +1,10 @@
+{
+  "name": "cnab240-vercel",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "formidable": "^3.5.0",
+    "git": "^0.1.5",
+    "xlsx": "^0.18.5"
+  }
+}

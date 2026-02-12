@@ -130,7 +130,7 @@ Sistema de Conversão Sicoob
 
     const data=XLSX.utils.sheet_to_json(ws,{defval:""});
 
-    const modelo = path.join(process.cwd(),"COOP1cheque.txt");
+    const modelo = path.join(process.cwd(),"api","COOP1cheque.txt");
 
     const txt=gerarCNAB(data,modelo);
 

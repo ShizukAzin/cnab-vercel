@@ -1,4 +1,4 @@
-import formidable from "formidable";
+import { formidable } from "formidable";
 import XLSX from "xlsx";
 import path from "path";
 import { gerarCNAB } from "../lib/cnab.js";
@@ -109,7 +109,10 @@ Sistema de Conversão Sicoob
   // PROCESSAMENTO DO UPLOAD
   // =========================
 
-  const form=new formidable.IncomingForm();
+  const form = formidable({
+  multiples:false,
+  keepExtensions:true
+});
 
   form.parse(req,(err,fields,files)=>{
 

@@ -96,7 +96,7 @@ button:hover{
 <div class="footer">
     © 2026 SousaTech
 <div class="footer">
-Sistema de Conversão Sicoob
+Sistema de Conversão
 </div>
 
 </div>

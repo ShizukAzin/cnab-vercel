@@ -93,7 +93,8 @@ button:hover{
 <button type="submit">Gerar Arquivo CNAB</button>
 
 </form>
-
+<div class="footer">
+    © 2026 SousaTech
 <div class="footer">
 Sistema de Conversão Sicoob
 </div>

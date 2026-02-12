@@ -94,7 +94,7 @@ button:hover{
 
 </form>
 <div class="footer">
-    © 2026 SousaTech
+    © 2026 Sh
 <div class="footer">
 Sistema de Conversão
 </div>

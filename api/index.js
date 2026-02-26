@@ -76,6 +76,25 @@ button:hover{
   color:#888;
 }
 
+.modelo-btn{
+  display:block;
+  width:92,5%;
+  padding:14px;
+  border-radius:10px;
+  background:#4CAF50;
+  color:white;
+  font-size:16px;
+  text-decoration:none;   /* remove sublinhado */
+  text-align:center;
+  transition:0.3s;
+}
+ .modelo-btn:hover{
+  background:#3e8e41;
+  transform:translateY(-2px);
+}
+ .modelo-btn:visited{
+  color:white;  /* evita ficar roxo depois do clique */
+}
 </style>
 
 </head>
@@ -91,8 +110,17 @@ button:hover{
 <input type="file" name="file" accept=".xls,.xlsx,.xlsm" required>
 
 <button type="submit">Gerar Arquivo CNAB</button>
-
 </form>
+  </button>
+  
+<div class="footer">
+<a href="https://docs.google.com/spreadsheets/d/1Ity4y4IEMdmV5n9EnEHpiyhh5_cExjBz/export?format=xlsx" 
+   target="_blank"
+   class="modelo-btn">
+   📥 Baixar Modelo de Planilha
+</a>
+</div>
+
 <div class="footer">
     © 2026 Sh
 <div class="footer">

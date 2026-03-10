@@ -122,7 +122,7 @@ button:hover{
 </div>
 
 <div class="footer">
-    © 2026 Sh
+    © 2026 S.T
 <div class="footer">
 Sistema de Conversão
 </div>
